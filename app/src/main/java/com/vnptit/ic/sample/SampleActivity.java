@@ -530,9 +530,9 @@ public class SampleActivity extends AppCompatActivity implements View.OnClickLis
       final Intent intent = new Intent(this, clazz);
 
       // Nhập thông tin bộ mã truy cập. Lấy tại mục Quản lý Token https://ekyc.vnpt.vn/admin-dashboard/console/project-manager
-      intent.putExtra(KeyIntentConstants.ACCESS_TOKEN, "bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkYTVkMjYwNy1hMGJlLTExZWItODE4Zi03ZDJjNGZlNDA1ZWQiLCJhdWQiOlsicmVzdHNlcnZpY2UiXSwidXNlcl9uYW1lIjoicGh1bmdwbkB2bnB0LnZuIiwic2NvcGUiOlsicmVhZCJdLCJpc3MiOiJodHRwczovL2xvY2FsaG9zdCIsIm5hbWUiOiJwaHVuZ3BuQHZucHQudm4iLCJ1dWlkX2FjY291bnQiOiJkYTVkMjYwNy1hMGJlLTExZWItODE4Zi03ZDJjNGZlNDA1ZWQiLCJhdXRob3JpdGllcyI6WyJVU0VSIl0sImp0aSI6Ijg1ODJkNTIxLTAxZTAtNDU3ZS05Nzc5LTBmNTA4MmYyN2ViNSIsImNsaWVudF9pZCI6ImFkbWluYXBwIn0.8EFz7oBfQkof7VzmXFEWYtCUUtz1YPjv0Xgy6ouYua1QuhkxyV2wX8gLc4t8zV-ir6vsJ28xHWY_evOO6MvRd8E9PRExcOBUebbqJQ1xmkjCx4eLWKhyhymT0mW88kzWj87wNhDZhL9-PQ2MlAmQjohi3YVkAMJdUjUJJQGJ-CIds9BD_OkGS8YlAs_Lfp2_3hxRTPdV85v9o5RqEh9mIJMIk1Mh4BcnuJSfihqNfIoSg1p27WFvjfyk2_61CgLMC3Iqc6WT92j1qc6tjVgPSnPnVrv0cfKdHWmcb48AaSSacqlYhIhHzE30Y_P_ESK3wAILKLdsTJ_CZQ7z9Z4Syg");
-      intent.putExtra(KeyIntentConstants.TOKEN_ID, "c0503c5a-8160-afcf-e053-604fc10a2953");
-      intent.putExtra(KeyIntentConstants.TOKEN_KEY, "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAM2YUe2wcFngILRw4Y2dmq3IMZaFaWxfc4tge31gIjSJ6QCnI0BUUFC5lC3iTnDyMt/R0WwaPmNhhZvaNVSkLzsCAwEAAQ==");
+      intent.putExtra(KeyIntentConstants.ACCESS_TOKEN, "<ACCESS_TOKEN> (including bearer)");
+      intent.putExtra(KeyIntentConstants.TOKEN_ID, "<TOKEN_ID>");
+      intent.putExtra(KeyIntentConstants.TOKEN_KEY, "<TOKEN_KEY>");
 
       // Giá trị này dùng để đảm bảo mỗi yêu cầu (request) từ phía khách hàng sẽ không bị thay đổi.
       intent.putExtra(KeyIntentConstants.CHALLENGE_CODE, "INNOVATIONCENTER");
