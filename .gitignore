@@ -19,3 +19,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+/ekyc/ekyc_sdk-release-*.aar
+/nfc/vnpt_nfc_sdk-release-*.aar
+/scanqr/scanqr_ic_sdk-release-*.aar

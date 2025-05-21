@@ -14,7 +14,7 @@
       app:titleTextAppearance="?attr/textAppearanceBody1" />
 
    <com.google.android.material.button.MaterialButton
-      android:id="@+id/ekyc_full"
+      android:id="@+id/ekyc_nfc_full"
       style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -22,6 +22,16 @@
       android:text="eKYC luồng đầy đủ"
       android:textAppearance="?attr/textAppearanceSubtitle2"
       android:visibility="gone"
+      android:layout_marginVertical="2dp" />
+
+   <com.google.android.material.button.MaterialButton
+      android:id="@+id/ekyc_full"
+      style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginHorizontal="16dp"
+      android:text="eKYC luồng đầy đủ"
+      android:textAppearance="?attr/textAppearanceSubtitle2"
       android:layout_marginVertical="2dp" />
 
    <com.google.android.material.button.MaterialButton
@@ -45,6 +55,44 @@
       android:layout_marginVertical="2dp" />
 
    <com.google.android.material.button.MaterialButton
+      android:id="@+id/ekyc_ocr_front"
+      style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginHorizontal="16dp"
+      android:text="Thực hiện OCR mặt trước giấy tờ"
+      android:textAppearance="?attr/textAppearanceSubtitle2"
+      android:layout_marginVertical="2dp" />
+
+   <com.google.android.material.button.MaterialButton
+      android:id="@+id/ekyc_ocr_back"
+      style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginHorizontal="16dp"
+      android:text="Thực hiện OCR mặt sau giấy tờ"
+      android:textAppearance="?attr/textAppearanceSubtitle2"
+      android:layout_marginVertical="2dp" />
+
+   <com.google.android.material.button.MaterialButton
+      android:id="@+id/ekyc_qr"
+      style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginHorizontal="16dp"
+      android:text="Thực hiện quét mã QR"
+      android:textAppearance="?attr/textAppearanceSubtitle2"
+      android:layout_marginVertical="2dp" />
+
+   <com.google.android.material.appbar.MaterialToolbar
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      app:title="Tích hợp SDK VNPT NFC"
+      app:titleCentered="true"
+      app:titleTextAppearance="?attr/textAppearanceBody1" />
+
+
+   <com.google.android.material.button.MaterialButton
        android:id="@+id/nfc_qr"
        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
        android:layout_width="match_parent"
@@ -53,6 +101,16 @@
        android:text="Thực hiện quét QR - NFC"
        android:textAppearance="?attr/textAppearanceSubtitle2"
        android:layout_marginVertical="2dp" />
+
+   <com.google.android.material.button.MaterialButton
+      android:id="@+id/nfc_mrz"
+      style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginHorizontal="16dp"
+      android:text="Thực hiện quét MRZ - NFC"
+      android:textAppearance="?attr/textAppearanceSubtitle2"
+      android:layout_marginVertical="2dp" />
 
    <com.google.android.material.button.MaterialButton
        android:id="@+id/nfc"

@@ -27,4 +27,12 @@ public class AppCode {
     public static int backgroundColorBorderCaptureFace = 0xFF00A96F;
     public static int backgroundColorPopup = 0xFFFFFFFF;
     public static int textColorContentPopup = 0xFF142730;
+
+    public static String ACCESS_TOKEN = "";
+    public static String TOKEN_ID = "";
+    public static String TOKEN_KEY = "";
+    public static String HASH_FRONT = "";
+    public static String ACCESS_TOKEN_NFC = "";
+    public static String TOKEN_ID_NFC = "";
+    public static String TOKEN_KEY_NFC = "";
 }
